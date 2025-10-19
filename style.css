@@ -1,0 +1,203 @@
+:root {
+    --bgG: #F1F1F1;
+    --bgW: #fff;
+    --item: #E2E2E2;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    border-radius: 8px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.title {
+    width: 600px;
+    height: 80px;
+    background: var(--item);
+    font-family: 'Times New Roman', Times, serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* header */
+.header {
+    height: fit-content;
+    background: var(--bgW);
+
+    display: flex;
+    padding: 16px 83px;
+    gap: 16px;
+    align-items: center;
+
+}
+
+.header>.logo {
+    width: 200px;
+    height: 60px;
+    background: var(--item);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header>.button {
+    width: 120px;
+    height: 42px;
+    background: var(--item);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header>.menu {
+    width: 100%;
+    height: 34px;
+    background: var(--item);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* section1 */
+.section1 {
+    height: fit-content;
+    padding: 80px 83px;
+
+    background: var(--bgG);
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section1>.content {
+    width: 520px;
+    height: 267px;
+    background: var(--item);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1>.image {
+    width: 520px;
+    aspect-ratio: 1;
+    background: var(--item);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* section2 */
+.section2 {
+    height: fit-content;
+    background: var(--bgW);
+    padding: 80px 83px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}.container2{    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.container2>.item{
+    width: 380px;
+    height: 420px;
+    background: var(--item);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* section3 */
+.section3 {
+    height: fit-content;
+    background: var(--bgG);
+    padding: 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.container3{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.container3>.item{
+    width: 216px;
+    height: 300px;
+    background: var(--item);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* section4 */
+.section4 {
+    height: fit-content;
+    background: var(--bgW);
+    padding: 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.container4{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.container4>.item{
+    width: 277px;
+    height: 300px;
+    background: var(--item);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer */
+.footer {
+    width: 100%;
+    height: 60px;
+    background: var(--item);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
